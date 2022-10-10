@@ -1,6 +1,6 @@
 I am Panos
 
-I am from Greece
+I am from Grecia/Griechenland/Je suis Greque or something
 I am a college student
 I am studying Applied Math and Computer Science, hence my experience
 
