@@ -15,4 +15,3 @@ Tech, env-tech, energy technology
 Hopefully a mix of practical skills and theoretical/mathematical knowledge and modelling/research
 I am not sure at all
 
-
