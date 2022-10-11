@@ -47,4 +47,7 @@ Supply Chain for Shipping
 When the Financier has been approved by all counterparties, a collaboration space has been created so now the Financiers can bid on the trade, proposing the conditions for the Financial Agreement. 
 The Finnacier can propose the conditions (such as the interest rate and a payback date) that will afterward be analyzed by the Buyer. In case the buyer does not agree with the financial terms, 
 he can commit another counter proposal that will be then validated by the Financier or rejected.
-Once the terms have been agreed by both parties, the agreed amount is locked until the confirmation of the success of the trade is received. 
+Once the terms have been agreed by both parties, the agreed amount is locked until the confirmation of the success of the trade is received.
+
+![flowchart2](flowchart_task2.jpeg)
+
