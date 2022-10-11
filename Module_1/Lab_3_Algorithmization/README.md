@@ -35,6 +35,8 @@ Below is a summary of the steps you will follow in this lab:
 ### Define if a given number is prime or not.
 #### A prime number (or a prime) is a natural number greater than 1 that is not a product of two smaller natural numbers. Or, it is a natural number that can be divided only by 1 and itself.
 
+![flowchart1](flowchart_task1.jpeg)
+
 ## Task 2
 ### Define the flowchart for the business case.
 #### 
