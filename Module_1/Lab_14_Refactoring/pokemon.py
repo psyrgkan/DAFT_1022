@@ -1,7 +1,6 @@
 '''
 This is where the class for pokemon lives.
 '''
-from typing import List
 from attack import Attack
 
 class Pokemon:
