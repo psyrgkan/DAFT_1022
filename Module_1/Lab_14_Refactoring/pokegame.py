@@ -146,9 +146,9 @@ if __name__ == '__main__':
 
         # Fastest PokeMon attacks first
         if pkm0.stats[5] > pkm1.stats[5]:
-            attacking_round(pkm0, pkm1, att0)
+            attacking_round(pkm0, pkm1, att0, att1)
         else:
-            attacking_round(pkm1, pkm0, att1)
+            attacking_round(pkm1, pkm0, att1, att0)
 
         # Check if alive and print info accordingly
         if pkm0.hp >0 and pkm1.hp > 0:
