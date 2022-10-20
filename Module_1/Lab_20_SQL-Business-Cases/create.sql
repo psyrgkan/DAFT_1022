@@ -1,3 +1,4 @@
+create database if not exists lab_20;
 use lab_20;
 
 CREATE TABLE IF NOT EXISTS cars (
