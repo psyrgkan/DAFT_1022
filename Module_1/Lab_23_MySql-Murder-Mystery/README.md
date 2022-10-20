@@ -16,6 +16,8 @@ Enjoy :)
 - a file with the queries
 - killer's name
 
+Murderer was Jeremy Bowers
+who was hired by Miranda Priestly
 
 
 
