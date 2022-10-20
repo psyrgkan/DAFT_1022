@@ -29,21 +29,16 @@ VALUES
 INSERT INTO salespersons (staff_id, name_, store_id)
 VALUES
 (00001, "Petey Cruiser", 001),
-(002, "-", "Barcelona"),
-(003, "-", "Berlin"),
-(004, "-", "Paris"),
-(005, "-", "Miami"),
-(006, "-", "Mexico City"),
-(007, "-", "Amsterdam"),
-(008, "-", "São Paulo");
+(00002, "Anna Sthesia", 002),
+(00003, "Paul Molive", 003),
+(00004, "Gail Forcewind", 004),
+(00005, "Paige Turner", 005),
+(00006, "Bob Frapples", 006),
+(00007, "Walter Melon", 007),
+(00008, "Shonda Leer", 008);
 
-
-Staff ID	Name	Store
-0	00001	Petey Cruiser	Madrid
-1	00002	Anna Sthesia	Barcelona
-2	00003	Paul Molive	Berlin
-3	00004	Gail Forcewind	Paris
-4	00005	Paige Turner	Mimia
-5	00006	Bob Frapples	Mexico City
-6	00007	Walter Melon	Amsterdam
-7	00008	Shonda Leer	São Paulo
+INSERT INTO invoices (invoice_id, date_, vin, customer_id, staff_id)
+VALUES
+(852399038, "2018-08-22", "3K096I98581DHSNUP", 20001, 00004),
+(731166526, "2018-12-31", "HKNDGS7CU31E9Z7JW", 10001, 00006),
+(271135104, "2019-01-22", "RKXVNNIHLVVZOUB4M", 30001, 00008);

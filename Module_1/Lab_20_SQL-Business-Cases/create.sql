@@ -40,7 +40,7 @@ FOREIGN KEY (store_id) REFERENCES stores(store_id)
 
 CREATE TABLE IF NOT EXISTS invoices (
 invoice_id INT NOT NULL,
-date_ DATETIME,
+date_ DATE,
 customer_id INT,
 vin VARCHAR(17),
 staff_id INT,
