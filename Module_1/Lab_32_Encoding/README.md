@@ -32,28 +32,49 @@ TransactionID | ClientID | Profession | Bank_dep | Risk | Number of credits | Re
 Create a table in the readme file that consists of the columns: Method, Library, Code, Result
 Encode the categorical data using the following methods using different Python libraries:
 - Dummy Encoder
+pandas.get_dummies
 - Label Encoder
+sklearn.preprocessing.LabelEncoder
 - Backward Difference Coding
+category_encoders.backward_difference.BackwardDifferenceEncoder
 - BaseN
+category_encoders.basen.BaseNEncoder
 - Binary
+category_encoders.binary.BinaryEncoder
 - CatBoost Encoder
+category_encoders.cat_boost.CatBoostEncoder
 - Count Encoder
+category_encoders.count.CountEncoder
 - Generalized Linear Mixed Model Encoder
+category_encoders.glmm.GLMMEncoder
 - Hashing
+category_encoders.hashing.HashingEncoder
 - Helmert Coding
+category_encoders.helmert.HelmertEncoder
 - James-Stein Encoder
+category_encoders.james_stein.JamesSteinEncoder
 - Leave One Out
+category_encoders.leave_one_out.LeaveOneOutEncoder
 - M-estimate
+category_encoders.m_estimate.MEstimateEncoder
 - One Hot
+category_encoders.one_hot.OneHotEncoder
 - Ordinal
+category_encoders.ordinal.OrdinalEncoder
 - Polynomial Coding
+category_encoders.polynomial.PolynomialEncoder
 - Sum Coding
+category_encoders.sum_coding.SumEncoder
 - Target Encoder
+category_encoders.target_encoder.TargetEncoder
 - Weight of Evidence
+category_encoders.woe.WOEEncoder
 - Wrappers
+category_encoders.wrapper.PolynomialWrapper
 - Quantile Encoder
+category_encoders.quantile_encoder.QuantileEncoder
 - Summary Encoder
-
+category_encoders.quantile_encoder.SummaryEncoder
 
 Add to the readme file the results for each method.
 Part 2: SQL
