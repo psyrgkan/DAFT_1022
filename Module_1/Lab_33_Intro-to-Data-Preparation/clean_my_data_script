@@ -1,0 +1,86 @@
+# %%
+import pandas as pd
+import numpy as np
+from sklearn.impute import SimpleImputer
+
+# %%
+df = pd.read_csv(r'ex_data_cleaning.csv')
+df.head()
+
+# %%
+df.describe()
+
+# %%
+df.drop(columns=['Department'], inplace=True)
+df.head()
+
+# %%
+df.drop([1], inplace=True)
+df.head()
+
+# %%
+df.fillna(np.NaN)
+
+# %%
+df['Profession'] = df['Profession'].apply(lambda x: str(x).lower())
+
+# %%
+df
+
+# %%
+risk_dict = {
+    'Low' : 1,
+    'Medium' : 2,
+    'High' : 3
+}
+
+df['Risk_Ord'] = df['Risk'].map(risk_dict)
+df.drop(columns=['Risk'], inplace=True)
+df
+
+# %%
+df.loc[df['Profession'] == 'etudient', 'Profession'] = 'student'
+
+# %%
+imputer = SimpleImputer(strategy='most_frequent',
+                        missing_values='nan')
+imputer = imputer.fit(df[['Profession']])
+df[['Profession']] = imputer.transform(df[['Profession']])
+df
+
+# %%
+imputer2 = SimpleImputer(strategy='mean',
+                        missing_values=np.nan)
+imputer2 = imputer2.fit(df[['BirthYear']])
+df[['BirthYear']] = imputer2.transform(df[['BirthYear']])
+df
+
+# %%
+df = df.merge(df[['BirthYear']].groupby(df['ClientID']).agg('mean'), on='ClientID')
+
+# %%
+df = df.merge(df[['BirthYear_x']].groupby(df['ClientID']).agg('min'), on='ClientID')
+
+# %%
+df.loc[df['BirthYear_x_x'] != df['BirthYear_y'], 'BirthYear_x_x'] = df['BirthYear_x_y']
+
+# %%
+df['BirthYear'] = df['BirthYear_x_x']
+
+# %%
+df.drop(columns=['BirthYear_x_x', 'BirthYear_y', 'BirthYear_x_y'], inplace=True)
+
+# %%
+df = df[['TransactionID', 'ClientID', 'BirthYear', 'Amount', 'Profession', 'Risk_Ord']]
+
+# %%
+df['BirthYear'] = df['BirthYear'].fillna(0).astype(int)
+
+# %%
+df = pd.get_dummies(df, columns=['Profession'])
+
+# %%
+df
+
+# %%
+df.to_csv('clean_data.csv')
