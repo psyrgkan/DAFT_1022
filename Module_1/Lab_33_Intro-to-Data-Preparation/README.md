@@ -28,7 +28,9 @@ Here is the dataset: https://docs.google.com/spreadsheets/d/1CYSDJooG0_58AzbYNRw
 I decided to use ordinal encoding for risk, one hot for profession. I also used the lowest birthyear when people
 with the same ID had two or more birthyears. I took out the developer outlier. I filled the missing values in year 
 with the mean birthyear. I filled the missing values in profession with the most frequent profession, although it was 
-pointed out to me that that might skew my observations and should potentially just remove those.  
+pointed out to me that that might skew my observations and should potentially just remove those. On second thought I would
+use a LabelEncoder for the profession variable. Since that would be simpler and equally as efficient for models.
+
 - Prepared dataset in csv format
 
 ## Submission
