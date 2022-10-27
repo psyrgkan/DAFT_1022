@@ -23,7 +23,12 @@ Here is the dataset: https://docs.google.com/spreadsheets/d/1CYSDJooG0_58AzbYNRw
 ## Deliverables
 
 - Code in Python
-- Readme file with your plan, approaches and summary
+- Readme file with your plan, approaches and summary  
+
+I decided to use ordinal encoding for risk, one hot for profession. I also used the lowest birthyear when people
+with the same ID had two or more birthyears. I took out the developer outlier. I filled the missing values in year 
+with the mean birthyear. I filled the missing values in profession with the most frequent profession, although it was 
+pointed out to me that that might skew my observations and should potentially just remove those.  
 - Prepared dataset in csv format
 
 ## Submission
