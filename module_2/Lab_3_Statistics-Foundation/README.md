@@ -71,12 +71,20 @@ Describe the following events:
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
-* A. The number of figures he picks.
-* B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.
-* C. The number of hearts or spades he picks.
+* A. The number of figures he picks.  
+  
+  $\\Omega_1 = \\{0,1,2\\}$  
+* B. The sum of card values. Consider that the value of figures is 10 and the value of aces is 15.  
+  
+  $\\Omega_2 = \\{ 4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22,23,24,25\\}  
+* C. The number of hearts or spades he picks.  
+  
+  $\\Omega_3 = \\{ 0,1,2  \\}  
 
 Describe the following events:
-* Case A: The number of figures in the cards the player picked is two.
+* Case A: The number of figures in the cards the player picked is two.  
+  
+  $x = {2, x \\in \\Omega_1\\}$
 * Case B: The sum of card values is 17.
 * Case C: The value of both cards is less than 8.
 
