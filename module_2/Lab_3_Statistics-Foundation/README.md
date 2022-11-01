@@ -50,18 +50,18 @@ stdev = 36.790750495659886
 One player rolls two dices. Describe the measurable space and the random variable for:
 * A. The values that the player obtains.  
   
-  $Ω = {(1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (2,2), (2,3), (2,4), (2,5), (2,6), (3,3), (3,4), (3,5), (3,6), (4,4), (4,5), (4,6), (5,5), (5,6), (6,6)}$
+  $\Omega = \{(1,1), (1,2), (1,3), (1,4), (1,5), (1,6), (2,2), (2,3), (2,4), (2,5), (2,6), (3,3), (3,4), (3,5), (3,6), (4,4), (4,5), (4,6), (5,5), (5,6), (6,6)\}$
 * B. The sum of the values obtained.  
   
-  Ω = {2,3,4,5,6,7,8,9,10,11,12}  
+  $\Omega = \{2,3,4,5,6,7,8,9,10,11,12\}  $
 * C. The maximum value obtained after rolling both dices.  
   
-  Ω = {1,2,3,4,5,6}  
+  $\Omega = \{1,2,3,4,5,6\}  $
   
 Describe the following events:  
 * Case A: Both values are greater than 5.  
   
-  x1={5,6} 
+  $x1=\{5,6\} \Union x2=\{5,6\}$
 * Case B: The sum of values is even.
 * Case C: The maximum is the value of both rolls.
 
