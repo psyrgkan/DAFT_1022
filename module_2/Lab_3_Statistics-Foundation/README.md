@@ -98,10 +98,10 @@ Two players roll a dice. Describe the measurable space and the random variable f
   We are going to assume that score means sum and not some other arbitrary scoring.  
 * A. The score of player A.  
   
-  $\\Omega = \\{ 2,3,4,5,6,7,8,9,10,11,12 \\}  $  
+  $\\Omega_1 = \\{ 2,3,4,5,6,7,8,9,10,11,12 \\}  $  
 * B. The greatest score.  
   
-  $\\Omega = \\{ 2,3,4,5,6,7,8,9,10,11,12 \\}  $  
+  $\\Omega_2 = \\{ 2,3,4,5,6,7,8,9,10,11,12 \\}  $  
 * C. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets a coin from the other player.".  
   
@@ -109,18 +109,29 @@ Two players roll a dice. Describe the measurable space and the random variable f
 * D. The earnings of player A if the game rules state that:  
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.".   
   
-  $\\Omega = \\{ 0,1,2,3,4,5,6,7,8,9,10,11 \\}  $  
+  $\\Omega_3 = \\{-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,0,1,2,3,4,5,6,7,8,9,10,11 \\}  $  
 
 
 Describe the following events:
 * Case A: The score of player A is 2.  
   
-  $x=\\{2| x \in score_A\\}$
-* Case B: The greatest score is lower or equal than 2.
+  $x=\\{2| x \in \Omega_1 \\}$  
+
+* Case B: The greatest score is lower or equal than 2.  
+  
+  $x= \\{ v<=2 | v \in \Omega_2  \\}  $
+
 * Case C: Considering the case where the winner gets as many coins as the difference between scores (D), describe: 
-  * Player A wins at least 4 coins.
-  * Player A loses more than 2 coins.
-  * Player A neither wins nor loses coins.
+  * Player A wins at least 4 coins.  
+    
+  $ x = \\{ v>=4 | v \in \Omega_3 \\}$  
+
+  * Player A loses more than 2 coins.  
+
+    $x = \\{v< -2  | v \in \Omega_3 \\} $
+  * Player A neither wins nor loses coins.  
+    
+    $x = \\{v=0  | v \in \Omega_3 \\} $  
 
 ## Bonus challenges
 ### Bonus Challenge 1
