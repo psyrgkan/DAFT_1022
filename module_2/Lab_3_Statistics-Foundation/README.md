@@ -93,14 +93,23 @@ Describe the following events:
   $(x,y) = \\{(v,w) | v,w < 8 , v,w \\in Cards \\} $
 
 ### Challenge 3
-Two players roll a dice. Describe the measurable space and the random variable for:
-* A. The score of player A.
-* B. The greatest score.
+Two players roll a dice. Describe the measurable space and the random variable for:  
+  
+  We are going to assume that score means sum and not some other arbitrary scoring.  
+* A. The score of player A.  
+  
+  $\\Omega = \\{ 2,3,4,5,6,7,8,9,10,11,12 \\}  $  
+* B. The greatest score.  
+  
+  $\\Omega = \\{ 2,3,4,5,6,7,8,9,10,11,12 \\}  $  
 * C. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets a coin from the other player.".
+"The player with the greatest score gets a coin from the other player.".  
+  
+  $\\Omega = \\{ nothing, coin \\}  $  
 * D. The earnings of player A if the game rules state that:  
-"The player with the greatest score gets as many coins as the difference between the score of player A and player B.". 
-
+"The player with the greatest score gets as many coins as the difference between the score of player A and player B.".   
+  
+  $\\Omega = \\{ 0,1,2,3,4,5,6,7,8,9,10,11 \\}  $  
 Describe the following events:
 * Case A: The score of player A is 2.
 * Case B: The greatest score is lower or equal than 2.
