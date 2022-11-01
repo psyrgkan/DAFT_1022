@@ -110,6 +110,8 @@ Two players roll a dice. Describe the measurable space and the random variable f
 "The player with the greatest score gets as many coins as the difference between the score of player A and player B.".   
   
   $\\Omega = \\{ 0,1,2,3,4,5,6,7,8,9,10,11 \\}  $  
+   
+     
 Describe the following events:
 * Case A: The score of player A is 2.
 * Case B: The greatest score is lower or equal than 2.
