@@ -61,9 +61,13 @@ One player rolls two dices. Describe the measurable space and the random variabl
 Describe the following events:  
 * Case A: Both values are greater than 5.  
   
-  $x1= \\{ 5,6 \\} \\cap x2=\\{ 5,6 \\} $
-* Case B: The sum of values is even.
-* Case C: The maximum is the value of both rolls.
+  $x1= \\{ 5,6 \\} \\cap x2=\\{ 5,6 \\} $  
+* Case B: The sum of values is even.  
+  
+  $(x1,x2) = \\{ (1,1), (1,3), (1,5), (2,2), (2,4), (2,6), (3,3), (3,5), (4,4), (4,6), (5,5), (6,6) \\}$  
+* Case C: The maximum is the value of both rolls.  
+  
+  $(x1,x2) = \\{ (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) \\}$  
 
 ### Challenge 2
 One player picks two cards from a poker deck. Describe the measurable space and the random variable for:
