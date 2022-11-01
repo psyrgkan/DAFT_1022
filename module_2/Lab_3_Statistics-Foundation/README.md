@@ -32,7 +32,7 @@ Frequency         143     97      64      51      14      14        17
 Construct a histogram and cumulative frequency polygon for this dataset. Estimate the percentage
 of bulbs with lifetime less than 480 hours.   
 I would give and estimation of 67.5%  
-![histbutreallybar]('./hist.png')
+![histbutreallybar](./hist.png)
 
 ### Challenge 4
 The time between arrival of 60 patients at an intensive care unit were recorded to the nearest hour.
