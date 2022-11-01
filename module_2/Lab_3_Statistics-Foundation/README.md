@@ -84,9 +84,13 @@ One player picks two cards from a poker deck. Describe the measurable space and 
 Describe the following events:
 * Case A: The number of figures in the cards the player picked is two.  
   
-  $x = \\{2, x \\in \\Omega_1 \\}$
-* Case B: The sum of card values is 17.
-* Case C: The value of both cards is less than 8.
+  $x = \\{2, x \\in \\Omega_1 \\}$  
+* Case B: The sum of card values is 17.  
+  
+  $s = {17 \\| s \\in \\Omega_2 \\}$  
+* Case C: The value of both cards is less than 8.  
+  
+  $(x,y) = {(v,w) \\| v,w < 8 , v,w \\in Cards \\} $
 
 ### Challenge 3
 Two players roll a dice. Describe the measurable space and the random variable for:
