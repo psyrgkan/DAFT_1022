@@ -71,3 +71,6 @@ the tables using MySQL or Python
 8. I want to see the average scores for Agend grouped by each manager on the Tab By Manager:
  -- I choose the manager, and I see the success of his/her team (see file Hierarchy)
  -- I choose the Manager and I see the Benchmarking with the targets (file Targets)
+ 
+ 
+ https://docs.google.com/spreadsheets/d/1bveaXo3VWFwUz452_K3WHzCWbJ2vIobqkaIz3pULmec/edit?usp=sharing
