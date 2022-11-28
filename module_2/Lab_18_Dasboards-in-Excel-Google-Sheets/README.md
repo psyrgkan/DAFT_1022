@@ -47,6 +47,8 @@ Upon completion, add your deliverables to git. Then commit git and push your bra
  - I do not want to see the grid
  - the colors should correspond with the World bank color sheme
 
+https://docs.google.com/spreadsheets/d/1c9W4DjLPVtl20PROBdPzaJSdQozesZ3t7Cfq2HhWUPM/edit?usp=sharing
+
 #### Call Center Dashboard
 This dashboard should consist of the useful information about each employee splitting to the individual info and summary by manager. Tips: it can be easier to work with data if first you join all 
 the tables using MySQL or Python
