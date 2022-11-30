@@ -9,6 +9,7 @@ The objectives of this lab are:
 
 So you will be asked to read a piece of news and then share it with your partners. This way, when we finish sharing, you will have a light idea of the most important events but also you will be able to dig into one specific better.
 
+
 ## How we will do it?
 
 So let's start digging a litle bit.  You read the news but that is not enough. You want to understand:
